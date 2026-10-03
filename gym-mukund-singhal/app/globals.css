@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #7C3AED;
+    --background: #F8F7FC;
+  }
+
+  body {
+    background-color: #F8F7FC;
+    color: #0F172A;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+}
